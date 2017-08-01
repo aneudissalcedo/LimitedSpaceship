@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Asteroid
+  - Shredder
+  - Laser
+  - Enemy
+  - EnemyLaser
+  - Battery
   layers:
   - Default
   - TransparentFX
@@ -13,11 +19,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Asteroid
+  - Enemy
+  - Laser
+  - EnemyLaser
   - 
   - 
   - 

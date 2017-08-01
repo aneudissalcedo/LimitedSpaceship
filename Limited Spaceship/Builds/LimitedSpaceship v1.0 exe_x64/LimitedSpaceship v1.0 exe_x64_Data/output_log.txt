@@ -1,0 +1,149 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon HD 8400 (ID=0x9830)
+    Vendor:   ATI
+    VRAM:     1380 MB
+    Driver:   15.201.1101.0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.055 seconds
+OnLevelWasLoaded was found on MusicPlayer
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 380)
+
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.099035 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1c04 -> priority: 1 
+  Thread -> id: 250c -> priority: 1 
+New Level load: Game
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.550130 ms
+Music Player: loaded level1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 660.
+Total: 1.209048 ms (FindLiveObjects: 0.137473 ms CreateObjectMapping: 0.049244 ms MarkObjects: 0.985397 ms  DeleteObjects: 0.035394 ms)
+
+Player collided with a missile
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+New Level load: Win Screen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.011318 ms
+Music Player: loaded level2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 257 unused Assets to reduce memory usage. Loaded Objects now: 351.
+Total: 1.537856 ms (FindLiveObjects: 0.114390 ms CreateObjectMapping: 0.045653 ms MarkObjects: 0.467307 ms  DeleteObjects: 0.907940 ms)
+
+New Level load: Start Menu
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.401921 ms
+Music Player: loaded level0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MusicPlayer.OnLevelWasLoaded (Int32 level) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Music Player: loaded level0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 359.
+Total: 1.387045 ms (FindLiveObjects: 0.163121 ms CreateObjectMapping: 0.063094 ms MarkObjects: 1.127487 ms  DeleteObjects: 0.029238 ms)
+
+Duplicate music player self-destructing!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+New Level load: Game
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.232131 ms
+Music Player: loaded level1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 660.
+Total: 1.200328 ms (FindLiveObjects: 0.139525 ms CreateObjectMapping: 0.048218 ms MarkObjects: 0.978729 ms  DeleteObjects: 0.032829 ms)
+
+Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+New Level load: Win Screen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.451678 ms
+Music Player: loaded level2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 257 unused Assets to reduce memory usage. Loaded Objects now: 351.
+Total: 1.546063 ms (FindLiveObjects: 0.126188 ms CreateObjectMapping: 0.045653 ms MarkObjects: 0.495520 ms  DeleteObjects: 0.876136 ms)
+
+Quit requested
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
