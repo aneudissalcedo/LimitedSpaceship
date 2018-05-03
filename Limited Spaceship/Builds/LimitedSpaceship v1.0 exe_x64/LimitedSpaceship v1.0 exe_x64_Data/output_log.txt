@@ -2,26 +2,26 @@ Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon HD 8400 (ID=0x9830)
-    Vendor:   ATI
-    VRAM:     1380 MB
-    Driver:   15.201.1101.0
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     1977 MB
+    Driver:   23.21.13.9065
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
-Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
-Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\Aneudis Salcedo\Documents\GameJam\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.649 seconds
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Aneudis Salcedo\Documents\Development\Unity\Unity3D\Projects\LimitedSpaceship\Limited Spaceship\Builds\LimitedSpaceship v1.0 exe_x64\LimitedSpaceship v1.0 exe_x64_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.200 seconds
 OnLevelWasLoaded was found on MusicPlayer
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -31,175 +31,25 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 70.756630 ms
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2ae4 -> priority: 1 
-  Thread -> id: 1300 -> priority: 1 
+UnloadTime: 1.631179 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 52a4 -> priority: 1 
+  Thread -> id: 3ccc -> priority: 1 
+  Thread -> id: 13e4 -> priority: 1 
+  Thread -> id: 429c -> priority: 1 
 New Level load: Game
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 42.521791 ms
+UnloadTime: 6.191408 ms
 Music Player: loaded level1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 660.
-Total: 26.326629 ms (FindLiveObjects: 0.130804 ms CreateObjectMapping: 0.045653 ms MarkObjects: 26.108108 ms  DeleteObjects: 0.040010 ms)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player collided with a missile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player collided with a missile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player collided with a missile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player collided with a missile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player collided with a missile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Total: 0.417549 ms (FindLiveObjects: 0.076216 ms CreateObjectMapping: 0.027715 ms MarkObjects: 0.302678 ms  DeleteObjects: 0.010575 ms)
 
 Scored points
  
@@ -242,6 +92,38 @@ Scored points
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player collided with a missile
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player collided with a missile
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Scored points
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player collided with a missile
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -305,175 +187,11 @@ Scored points
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 Player collided with a missile
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player collided with a missile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player collided with a missile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player collided with a missile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Scored points
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player collided with a missile
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -482,16 +200,39 @@ New Level load: Win Screen
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.637367 ms
+UnloadTime: 1.693538 ms
 Music Player: loaded level2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
 Unloading 257 unused Assets to reduce memory usage. Loaded Objects now: 351.
-Total: 11.627769 ms (FindLiveObjects: 0.133882 ms CreateObjectMapping: 0.046166 ms MarkObjects: 0.503213 ms  DeleteObjects: 10.942968 ms)
+Total: 1.668741 ms (FindLiveObjects: 0.070381 ms CreateObjectMapping: 0.060170 ms MarkObjects: 0.427760 ms  DeleteObjects: 1.108968 ms)
 
-Quit requested
+New Level load: Start Menu
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.430609 ms
+Music Player: loaded level0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MusicPlayer.OnLevelWasLoaded (Int32 level) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Music Player: loaded level0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 359.
+Total: 0.310700 ms (FindLiveObjects: 0.025162 ms CreateObjectMapping: 0.013857 ms MarkObjects: 0.265116 ms  DeleteObjects: 0.005470 ms)
+
+Duplicate music player self-destructing!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

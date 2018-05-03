@@ -24,15 +24,24 @@ public class PlayerController : MonoBehaviour
 	public float xMin;
 	public float xMax;
 
+	private float moveHorizontal;
+	private float moveVertical;
+
+	// Gamepad Implementation
+	private bool joystickController = false;
+    private bool leftJoystick = false;
+
 	void Start()
 	{
 		rigidbody = GetComponent<Rigidbody>();
 		cameraViewRestriction();
+		
 	}
 
 	void Update()
 	{
-		if(Input.GetKey(KeyCode.Space) && Time.time > nextFire)
+
+		if((Input.GetKeyDown(KeyCode.Space) || Input.GetButton("AButton") && Time.time > nextFire))
 		{
 			nextFire = Time.time + fireRate;
 			Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
@@ -46,8 +55,29 @@ public class PlayerController : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		float moveHorizontal = Input.GetAxis("Horizontal");
-		float moveVertical = Input.GetAxis("Vertical");
+		if(!joystickController)
+		{
+			moveHorizontal = Input.GetAxis("Horizontal");
+			moveVertical = Input.GetAxis("Vertical");
+		}
+		else
+        {
+            // Gather input from joystick controller
+            if(leftJoystick)
+            {
+                moveHorizontal = Input.GetAxis("LeftJoystickHorizontal");
+                moveVertical = Input.GetAxis("LeftJoystickVertical"); 
+            }
+            else if(!leftJoystick)
+            {
+                moveHorizontal = Input.GetAxis("RightJoystickHorizontal");
+                moveVertical = Input.GetAxis("RightJoystickVertical");
+            }
+            else
+            {
+                Debug.LogError("Error: Trying to get input controller without any button pressed");
+            }
+        }
 
 		Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 		rigidbody.velocity = movement * speed;
@@ -113,6 +143,6 @@ public class PlayerController : MonoBehaviour
 		//LevelManager man = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 		//man.LoadLevel("Win Screen");
 
-		//SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
+		//SceneManager.LoadScene(SceneManager.GetSceneByBuildIndex().buildIndex + 1);
 	}
 }

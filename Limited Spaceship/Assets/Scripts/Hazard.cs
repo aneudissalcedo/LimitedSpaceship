@@ -27,6 +27,7 @@ public class Hazard : MonoBehaviour
 	{
 		if(other.CompareTag("Laser"))
 		{
+			other.gameObject.GetComponent<Laser>().Hit();
 			if(explosion != null)
 			{
 				Instantiate(explosion, transform.position, transform.rotation);
@@ -36,7 +37,12 @@ public class Hazard : MonoBehaviour
 		{
 			Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
 		}
-		if(other.CompareTag("Shredder") || other.CompareTag("Enemy"))
+		if(
+			other.CompareTag("Shredder") 
+			|| other.CompareTag("Enemy")
+			|| other.CompareTag("EnemyLaser")
+			|| other.CompareTag("Asteroid")
+		)
 		{
 			return;
 		}
