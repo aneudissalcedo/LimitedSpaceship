@@ -595,9 +595,9 @@ MonoBehaviour:
   - {fileID: 1393293101992094, guid: 4dd9eb3059f698545aaf5d1e5e08d762, type: 2}
   spawnValues: {x: 6, y: 0, z: 20}
   hazardCount: 15
-  spawnWait: 0.5
+  spawnWait: 1
   startWait: 1
-  waveWait: 1.5
+  waveWait: 1
   playerController: {fileID: 799492223}
 --- !u!4 &1254517836
 Transform:
