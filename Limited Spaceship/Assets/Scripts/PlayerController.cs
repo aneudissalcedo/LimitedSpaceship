@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
 	[SerializeField]private float fireRate;
 	private float nextFire;
 	private new Rigidbody rigidbody;
+	private MeshRenderer playerRenderer;
+	private ParticleSystemRenderer engineGO;
 	
 	[Space]
 	[SerializeField]private GameObject shot;
@@ -33,9 +35,10 @@ public class PlayerController : MonoBehaviour
 
 	void Start()
 	{
+		engineGO = GameObject.Find("engines_player").GetComponentInChildren<ParticleSystemRenderer>();
+		playerRenderer = GetComponent<MeshRenderer>();
 		rigidbody = GetComponent<Rigidbody>();
 		cameraViewRestriction();
-		
 	}
 
 	void Update()
@@ -48,7 +51,7 @@ public class PlayerController : MonoBehaviour
 			health -= 1;
 			if(health <= 0)
 			{
-				Die();
+				StartCoroutine(Die(3f));
 			}
 		}
 	}
@@ -119,23 +122,24 @@ public class PlayerController : MonoBehaviour
 			missile.Hit();
 			if(health <= 0)
 			{
-				Die();
+				StartCoroutine(Die(3f));
 			}
 		}
 
 		if((other.CompareTag("Enemy")) || (other.CompareTag("Asteroid")) )
 		{
-			Instantiate(playerExplosion, transform.position, transform.rotation);
-			LevelManager man = GameObject.Find("LevelManager").GetComponent<LevelManager>();
-			man.LoadLevel("Win Screen");
 			Destroy(other.gameObject);
-			Destroy(gameObject);
+			StartCoroutine(Die(3f));
 		}
 	}
 
-	public void Die()
+	public IEnumerator Die(float seconds)
 	{
 		Instantiate(playerExplosion, transform.position, transform.rotation);
+		playerRenderer.enabled = false;
+		engineGO.enabled = false;
+		yield return new WaitForSeconds(seconds);
+
 		LevelManager man = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 		man.LoadLevel("Win Screen");
 		Destroy(gameObject);
