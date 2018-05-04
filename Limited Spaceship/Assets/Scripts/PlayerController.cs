@@ -12,7 +12,9 @@ public class PlayerController : MonoBehaviour
 	private float nextFire;
 	private new Rigidbody rigidbody;
 	private MeshRenderer playerRenderer;
-	private ParticleSystemRenderer engineGO;
+	private MeshCollider playerCollider;
+	private GameObject engineGO;
+	private bool isAbleToAttack = false;
 	
 	[Space]
 	[SerializeField]private GameObject shot;
@@ -35,52 +37,58 @@ public class PlayerController : MonoBehaviour
 
 	void Start()
 	{
-		engineGO = GameObject.Find("engines_player").GetComponentInChildren<ParticleSystemRenderer>();
+		engineGO = GameObject.Find("engines_player");
 		playerRenderer = GetComponent<MeshRenderer>();
+		playerCollider = GetComponent<MeshCollider>();
 		rigidbody = GetComponent<Rigidbody>();
 		cameraViewRestriction();
 	}
 
 	void Update()
 	{
-
-		if((Input.GetKeyDown(KeyCode.Space) || Input.GetButton("AButton") && Time.time > nextFire))
+		if(!isAbleToAttack)
 		{
-			nextFire = Time.time + fireRate;
-			Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
-			health -= 1;
-			if(health <= 0)
+			if((Input.GetKeyDown(KeyCode.Space) || Input.GetButton("AButton") && Time.time > nextFire))
 			{
-				StartCoroutine(Die(3f));
+				nextFire = Time.time + fireRate;
+				Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+				health -= 1;
+				if(health <= 0)
+				{
+					StartCoroutine(Die(3f));
+				}
 			}
 		}
 	}
 
 	void FixedUpdate()
 	{
-		if(!joystickController)
+		if(!isAbleToAttack)
 		{
-			moveHorizontal = Input.GetAxis("Horizontal");
-			moveVertical = Input.GetAxis("Vertical");
+			if(!joystickController)
+			{
+				moveHorizontal = Input.GetAxis("Horizontal");
+				moveVertical = Input.GetAxis("Vertical");
+			}
+			else
+			{
+				// Gather input from joystick controller
+				if(leftJoystick)
+				{
+					moveHorizontal = Input.GetAxis("LeftJoystickHorizontal");
+					moveVertical = Input.GetAxis("LeftJoystickVertical"); 
+				}
+				else if(!leftJoystick)
+				{
+					moveHorizontal = Input.GetAxis("RightJoystickHorizontal");
+					moveVertical = Input.GetAxis("RightJoystickVertical");
+				}
+				else
+				{
+					Debug.LogError("Error: Trying to get input controller without any button pressed");
+				}
+			}
 		}
-		else
-        {
-            // Gather input from joystick controller
-            if(leftJoystick)
-            {
-                moveHorizontal = Input.GetAxis("LeftJoystickHorizontal");
-                moveVertical = Input.GetAxis("LeftJoystickVertical"); 
-            }
-            else if(!leftJoystick)
-            {
-                moveHorizontal = Input.GetAxis("RightJoystickHorizontal");
-                moveVertical = Input.GetAxis("RightJoystickVertical");
-            }
-            else
-            {
-                Debug.LogError("Error: Trying to get input controller without any button pressed");
-            }
-        }
 
 		Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 		rigidbody.velocity = movement * speed;
@@ -136,17 +144,15 @@ public class PlayerController : MonoBehaviour
 	public IEnumerator Die(float seconds)
 	{
 		Instantiate(playerExplosion, transform.position, transform.rotation);
+		isAbleToAttack = true;
+		engineGO.SetActive(false);
+		Debug.Log("engineGO condition: "+ engineGO.activeInHierarchy);
 		playerRenderer.enabled = false;
-		engineGO.enabled = false;
+		playerCollider.enabled = false;
 		yield return new WaitForSeconds(seconds);
 
 		LevelManager man = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 		man.LoadLevel("Win Screen");
 		Destroy(gameObject);
-
-		//LevelManager man = GameObject.Find("LevelManager").GetComponent<LevelManager>();
-		//man.LoadLevel("Win Screen");
-
-		//SceneManager.LoadScene(SceneManager.GetSceneByBuildIndex().buildIndex + 1);
 	}
 }

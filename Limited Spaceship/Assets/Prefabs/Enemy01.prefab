@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 957036fb4badc224295e29d81f2acd0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 6
+  lifeTime: 9
 --- !u!114 &114688474416636284
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tumble: 0
-  speed: -5
+  speed: -4
   scoreValue: 50
   explosion: {fileID: 100012, guid: 384371afbb4354cc9a3fc68eab303756, type: 2}
   playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 2}
@@ -330,7 +330,7 @@ MonoBehaviour:
   startWait: {x: 0.5, y: 1}
   evasionTime: {x: 1, y: 2}
   evasionWait: {x: 1, y: 2}
-  dodge: 6
+  dodge: 12
   smoothing: 7.5
   tilt: 6
 --- !u!136 &136261467412503496
