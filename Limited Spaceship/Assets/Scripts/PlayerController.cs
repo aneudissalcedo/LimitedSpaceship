@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour 
 {
 	public float health = 10f;
+	public int maxHealth = 30;
 	[SerializeField]private float speed;
 	[SerializeField]private float tilt;
 	[SerializeField]private float fireRate;
@@ -114,7 +115,7 @@ public class PlayerController : MonoBehaviour
 		Battery battery = other.gameObject.GetComponent<Battery>();
 		if(other.CompareTag("Battery"))
 		{
-			if(health < 30)
+			if(health < maxHealth)
 			{
 				health += battery.recharge();
 			}
