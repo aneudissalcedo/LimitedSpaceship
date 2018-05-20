@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
 	[SerializeField]private GameObject shot;
 	public Transform shotSpawn;
 	[SerializeField]private GameObject playerExplosion;
+	private ParticleSystem playerShield;
+	public bool isPlayerShield = false;
 
 	[Space]
 	[SerializeField]private float padding = 2f;
@@ -43,6 +45,7 @@ public class PlayerController : MonoBehaviour
 		playerCollider = GetComponent<MeshCollider>();
 		rigidbody = GetComponent<Rigidbody>();
 		cameraViewRestriction();
+		playerShield = GameObject.Find("particle_ShieldHexagon").GetComponent<ParticleSystem>();
 	}
 
 	void Update()
@@ -58,6 +61,17 @@ public class PlayerController : MonoBehaviour
 				{
 					StartCoroutine(Die(3f));
 				}
+			}
+
+			if(Input.GetKeyDown(KeyCode.Z))
+			{
+				isPlayerShield = true;
+				playerShield.Play();
+				Debug.Log("SHIELD CALLED");
+			}
+			else
+			{
+				isPlayerShield = false;
 			}
 		}
 	}
@@ -124,7 +138,7 @@ public class PlayerController : MonoBehaviour
 		}
 
 		Laser missile = other.gameObject.GetComponent<Laser>();
-		if(missile)
+		if(missile && (isPlayerShield == false))
 		{
 			Debug.Log("Player collided with a missile");
 			health -= missile.GetDamage();
@@ -135,7 +149,7 @@ public class PlayerController : MonoBehaviour
 			}
 		}
 
-		if((other.CompareTag("Enemy")) || (other.CompareTag("Asteroid")) )
+		if(((other.CompareTag("Enemy")) || (other.CompareTag("Asteroid"))) && (isPlayerShield == false))
 		{
 			Destroy(other.gameObject);
 			StartCoroutine(Die(3f));

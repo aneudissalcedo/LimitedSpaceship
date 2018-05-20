@@ -13,6 +13,7 @@ public class Hazard : MonoBehaviour
 	[SerializeField]private GameObject explosion;
 	[SerializeField]private GameObject playerExplosion;
 	private new Rigidbody rigidbody;
+	private PlayerController _player;
 
 	void Start()
 	{
@@ -33,10 +34,10 @@ public class Hazard : MonoBehaviour
 				Instantiate(explosion, transform.position, transform.rotation);
 			}
 		}
-		if(other.CompareTag("Player"))
-		{
-			Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
-		}
+		// if(other.CompareTag("Player"))
+		// {
+		// 	Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
+		// }
 		if(
 			other.CompareTag("Shredder") 
 			|| other.CompareTag("Enemy")
