@@ -63,11 +63,18 @@ public class PlayerController : MonoBehaviour
 				}
 			}
 
-			if(Input.GetKeyDown(KeyCode.Z))
+			if(Input.GetKey(KeyCode.Z))
 			{
 				isPlayerShield = true;
 				playerShield.Play();
 				Debug.Log("SHIELD CALLED");
+			}
+			else if(Input.GetKeyUp(KeyCode.Z))
+			{
+				var petete = playerShield.main.startLifetime;
+				petete = 0;
+				Debug.Log("SHIELD STOP");
+				playerShield.Stop();
 			}
 			else
 			{
